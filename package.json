@@ -1,0 +1,36 @@
+{
+  "name": "react-flash",
+  "version": "1.0.0",
+  "description": "A simple self destructing flash component",
+  "main": "./dist/index.js",
+  "author": "wildsmurf",
+  "license": "MIT",
+  "private": false,
+  "homepage": "https://github.com/wildsmurf/react-flash.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wildsmurf/react-flash.git"
+  },
+  "scripts": {
+  "build:dev": "NODE_ENV=development webpack",
+  "build:production": "NODE_ENV=production webpack -p",
+  "prepublish": "npm run build:production"
+},
+"peerDependencies": {
+  "react": "^16.0.0",
+  "react-dom": "^16.0.0",
+  "styled-components": "^2.2.1"
+},
+"devDependencies": {
+  "babel-core": "^6.26.0",
+  "babel-loader": "^7.1.2",
+  "babel-preset-latest": "^6.24.1",
+  "babel-preset-react": "^6.24.1",
+  "babel-preset-stage-2": "^6.24.1",
+  "cross-env": "^5.0.5",
+  "react": "^16.0.0",
+  "react-dom": "^16.0.0",
+  "styled-components": "^2.2.1",
+  "webpack": "^3.6.0"
+}
+}
